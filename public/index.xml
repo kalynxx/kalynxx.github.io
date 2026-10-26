@@ -1,14 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Your site title</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kboettcher.de/</link>
     <description>Recent content on Your site title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <managingEditor>Author email for RSS metadata - optional (Author name for RSS, the author meta tag, and structured data - optional)</managingEditor>
     <webMaster>Author email for RSS metadata - optional (Author name for RSS, the author meta tag, and structured data - optional)</webMaster>
     
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kboettcher.de/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
