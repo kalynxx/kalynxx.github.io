@@ -1,3 +1,65 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+#baseURL = 'https://example.org/'
+#locale = 'en-us'
+#ititle = 'My New Hugo Project'
+
+baseURL = "https://kboettcher.de/"
+locale = "en-US"
+title = "Your site title"
+theme = "noesis"
+
+[pagination]
+  pagerSize = 10
+
+[services]
+  [services.googleAnalytics]
+    id = "Your Google Analytics measurement ID - optional"
+  [services.disqus]
+    shortname = "Your shortname for Disqus - optional"
+
+[params]
+  brand = "The name that is displayed in the top left of the website - optional, title is fallback"
+  description = "The website's description"
+  mainSections = ["posts"]
+  # cardDescriptionLength = 160 # Optional character limit for card descriptions
+  # cardReadMoreText = "Read" # Optional label for the link at the bottom of each card
+
+  [params.appearance]
+    backgroundImage = "Path, within the 'assets' folder, of the image used for the page background - optional"
+    maskIconColor = "Color of the Safari pinned tab icon - optional, defaults to #22201d"
+
+  [params.navigation]
+    rssInMenu = true # Show an RSS link in the nav menu and footer - optional
+
+  [params.socials]
+    email = "Email address or mailto: URL, icon link will be included in the home page rail - optional"
+    discord = "URL to your Discord profile or community - optional"
+    facebook = "URL to your Facebook account, icon link will be included in the rail and footer - optional"
+    flickr = "URL to your Flickr account, icon link will be included in the rail and footer - optional"
+    github = "URL to your GitHub account, icon link will be included in the rail and footer - optional"
+    instagram = "URL to your Instagram account - optional"
+    linkedin = "URL to your LinkedIn account, icon link will be included in the rail and footer - optional"
+    patreon = "URL to your Patreon account - optional"
+    pinterest = "URL to your Pinterest account - optional"
+    reddit = "URL to your Reddit account - optional"
+    snapchat = "URL to your Snapchat account - optional"
+    soundCloud = "URL to your SoundCloud account, icon link will be included in the rail and footer - optional"
+    spotify = "URL to your Spotify account, icon link will be included in the rail and footer - optional"
+    tikTok = "URL to your TikTok account - optional"
+    tumblr = "URL to your Tumblr account, icon link will be included in the rail and footer - optional"
+    twitch = "URL to your Twitch account, icon link will be included in the rail and footer - optional"
+    twitter = "URL to your X/Twitter account, icon link will be included in the rail and footer - optional"
+    x = "URL to your X account, icon link will be included in the rail and footer - optional"
+    vimeo = "URL to your Vimeo account, icon link will be included in the rail and footer - optional"
+    whatsapp = "URL to your WhatsApp contact or channel - optional"
+    youtube = "URL to your YouTube account, icon link will be included in the footer - optional"
+
+  [params.author]
+    name = "Author name for RSS, the author meta tag, and structured data - optional"
+    email = "Author email for RSS metadata - optional"
+    jobTitle = "Job title for structured data - optional"
+    worksFor = "Employer name for structured data - optional"
+    location = "Location for structured data - optional"
+
+[markup]
+  [markup.highlight]
+    style = "evergarden"
